@@ -1,0 +1,33 @@
+@import 'text';
+@import 'list';
+@import 'button';
+
+body {
+  font-family: 'Open Sans', normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.1;
+
+  color: $text;
+
+  @media screen and (max-width: 700px) {
+    font-size: 14px;
+  }
+}
+
+.container {
+  width: min(100%, $container-width);
+  margin: 0 auto;
+
+  @media screen and (max-width: 700px) {
+    padding: 0 1rem;
+  }
+}
+
+.flex {
+  display: flex;
+
+  &-col {
+    flex-direction: column;
+  }
+}
