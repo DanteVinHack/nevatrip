@@ -10,7 +10,7 @@ body {
 
   color: $text;
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 800px) {
     font-size: 14px;
   }
 }
@@ -19,7 +19,7 @@ body {
   width: min(100%, $container-width);
   margin: 0 auto;
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 800px) {
     padding: 0 1rem;
   }
 }
