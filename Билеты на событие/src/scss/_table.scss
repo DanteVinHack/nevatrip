@@ -1,0 +1,17 @@
+.table {
+  border-spacing: 0;
+  font-family: sans-serif;
+
+  &:last-child {
+    border-bottom: 2px solid transparentize(gray, .50);
+  }
+}
+
+.th {
+    border-bottom: 2px solid transparentize(gray, .50);
+}
+
+.td, .th {
+  padding: .5rem 1rem;
+}
+
