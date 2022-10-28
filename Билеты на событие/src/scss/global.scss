@@ -1,6 +1,7 @@
 body {
-  display: grid;
-  place-items: center;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
   background: #34343424;
 }
